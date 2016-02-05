@@ -90,10 +90,14 @@ if ( ! class_exists( 'WC_Digital_Goods_Checkout' ) ) :
 				// Extra Checkout Fields for Brazil fields.
 				unset( $fields['billing']['billing_persontype'] );
 				unset( $fields['billing']['billing_cpf'] );
+				unset( $fields['billing']['billing_rg'] );
 				unset( $fields['billing']['billing_cnpj'] );
+				unset( $fields['billing']['billing_ie'] );
 				unset( $fields['billing']['billing_number'] );
 				unset( $fields['billing']['billing_neighborhood'] );
 				unset( $fields['billing']['billing_cellphone'] );
+				unset( $fields['billing']['billing_birthdate'] );
+				unset( $fields['billing']['billing_sex'] );
 
 				// Fix email field size.
 				$fields['billing']['billing_email']['class'] = array( 'form-row-wide' );
