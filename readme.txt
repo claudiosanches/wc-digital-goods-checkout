@@ -8,7 +8,7 @@ Stable tag: 0.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Hide billing fields when have just digital products in the cart
+Hide billing fields when have only digital products in the cart
 
 == Description ==
 

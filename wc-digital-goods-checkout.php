@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WooCommerce Digital Goods Checkout
  * Plugin URI: http://github.com/claudiosmweb/wc-digital-goods-checkout
- * Description: Hide billing fields when have just digital products in the cart.
+ * Description: Hide billing fields when have only digital products in the cart.
  * Author: Claudio Sanches
  * Author URI: http://claudiosmweb.com/
  * Version: 0.0.1
@@ -108,7 +108,7 @@ if ( ! class_exists( 'WC_Digital_Goods_Checkout' ) ) :
 
 		/**
 		 * Disable checkout validation for WooCommerce Extra Checkout Fields for Brazil
-		 * when cart have just digital goods.
+		 * when cart have only digital goods.
 		 *
 		 * @param bool $valid Cart validation.
 		 * @return bool
