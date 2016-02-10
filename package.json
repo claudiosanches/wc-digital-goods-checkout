@@ -1,0 +1,18 @@
+{
+  "name": "wc-digital-goods-checkout",
+  "description": "Hide billing fields when have only digital products in the cart",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claudiosmweb/wc-digital-goods-checkout"
+  },
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "expand-home-dir": "0.0.2",
+    "grunt": "^0.4.5",
+    "grunt-checktextdomain": "^1.0.0",
+    "grunt-rsync": "^1.0.1",
+    "grunt-shell": "^1.1.2",
+    "grunt-wp-i18n": "^0.5.3"
+  }
+}
