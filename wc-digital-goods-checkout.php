@@ -5,8 +5,10 @@
  * Description: Hide billing fields when have only digital products in the cart.
  * Author: Claudio Sanches
  * Author URI: http://claudiosmweb.com/
- * Version: 0.0.1
+ * Version: 1.0.0
  * License: GPLv2 or later
+ * Text Domain: wc-digital-goods-checkout
+ * Domain Path: languages/
  *
  * @package WC_Digital_Goods_Checkout
  */
@@ -29,7 +31,7 @@ if ( ! class_exists( 'WC_Digital_Goods_Checkout' ) ) :
 		 *
 		 * @var string
 		 */
-		const VERSION = '0.0.1';
+		const VERSION = '1.0.0';
 
 		/**
 		 * Instance of this class.
@@ -42,6 +44,7 @@ if ( ! class_exists( 'WC_Digital_Goods_Checkout' ) ) :
 		 * Initialize the plugin public actions.
 		 */
 		private function __construct() {
+			add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
 			add_action( 'woocommerce_checkout_fields', array( $this, 'checkout_fields' ) );
 			add_filter( 'wcbcf_disable_checkout_validation', array( $this, 'disable_checkout_validation_for_ecfb' ) );
 		}
@@ -58,6 +61,13 @@ if ( ! class_exists( 'WC_Digital_Goods_Checkout' ) ) :
 			}
 
 			return self::$instance;
+		}
+
+		/**
+		 * Load the plugin text domain for translation.
+		 */
+		public function load_plugin_textdomain() {
+			load_plugin_textdomain( 'wc-digital-goods-checkout', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 		}
 
 		/**
