@@ -1,4 +1,4 @@
-=== WooCommerce MercadoPago ===
+=== WooCommerce Digital Goods Checkout ===
 Contributors: claudiosanches
 Donate link: http://claudiosmweb.com/doacoes/
 Tags: woocommerce, digital goods, virtual products

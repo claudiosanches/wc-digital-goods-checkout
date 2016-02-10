@@ -1,4 +1,4 @@
-# WooCommerce MercadoPago #
+# WooCommerce Digital Goods Checkout #
 **Contributors:** claudiosanches  
 **Donate link:** http://claudiosmweb.com/doacoes/  
 **Tags:** woocommerce, digital goods, virtual products  
@@ -71,7 +71,7 @@ In other words, this happens when the cart has only virtual products.
 ## Screenshots ##
 
 ### 1. Example of the checkout page. ###
-![1. Example of the checkout page.](http://ps.w.org/woocommerce-mercadopago/assets/screenshot-1.png)
+![1. Example of the checkout page.](http://ps.w.org/wc-digital-goods-checkout/assets/screenshot-1.png)
 
 
 ## Changelog ##
