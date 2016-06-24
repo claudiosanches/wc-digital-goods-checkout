@@ -3,7 +3,7 @@
 **Donate link:** http://claudiosmweb.com/doacoes/  
 **Tags:** woocommerce, digital goods, virtual products  
 **Requires at least:** 4.0  
-**Tested up to:** 4.4  
+**Tested up to:** 4.5  
 **Stable tag:** 1.0.0  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
@@ -18,7 +18,7 @@ Not required any kind of configuration, just install and activate this plugin :)
 
 ### Compatibility ###
 
-* [WooCommerce](https://wordpress.org/plugins/woocommerce/) 2.2 or later (yes, this includes support for 2.5).
+* [WooCommerce](https://wordpress.org/plugins/woocommerce/) 2.2 or later (yes, this includes support for 2.6).
 * [WooCommerce Extra Checkout Fields for Brazil](https://wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/) 3.4.2 or later.
 * [WooCommerce Pagar.me](https://wordpress.org/plugins/woocommerce-pagarme/) 1.2.3 or later.
 
