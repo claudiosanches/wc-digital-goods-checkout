@@ -3,7 +3,7 @@ Contributors: claudiosanches
 Donate link: http://claudiosmweb.com/doacoes/
 Tags: woocommerce, digital goods, virtual products
 Requires at least: 4.0
-Tested up to: 4.5
+Tested up to: 4.7
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,7 @@ Hide billing fields when have only digital products in the cart
 
 == Description ==
 
-This plugin allow your customers skip unnecessary checkout fields (like full address and phone) when has only digital goods in the cart.
+This plugin improves conversion by enabling customers to skip unnecessary checkout fields (like full address fields and phone number field) when their cart has only digital goods (virtual and downloads) in their cart.
 
 Not required any kind of configuration, just install and activate this plugin :)
 
