@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: WooCommerce Digital Goods Checkout
+ * Plugin Name: Digital Goods Checkout on WooCommerce
  * Plugin URI: http://github.com/claudiosmweb/wc-digital-goods-checkout
  * Description: Hide billing fields when have only digital products in the cart.
  * Author: Claudio Sanches
  * Author URI: http://claudiosmweb.com/
- * Version: 1.0.0
+ * Version: 1.1.0
  * License: GPLv2 or later
  * Text Domain: wc-digital-goods-checkout
  * Domain Path: languages/
@@ -31,7 +31,7 @@ if ( ! class_exists( 'WC_Digital_Goods_Checkout' ) ) :
 		 *
 		 * @var string
 		 */
-		const VERSION = '1.0.0';
+		const VERSION = '1.1.0';
 
 		/**
 		 * Instance of this class.

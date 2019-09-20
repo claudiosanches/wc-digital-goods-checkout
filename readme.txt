@@ -1,10 +1,10 @@
-=== WooCommerce Digital Goods Checkout ===
+=== Digital Goods Checkout on WooCommerce ===
 Contributors: claudiosanches
 Donate link: https://claudiosmweb.com/doacoes/
 Tags: woocommerce, digital goods, virtual products
 Requires at least: 4.0
-Tested up to: 5.0
-Stable tag: 1.0.1
+Tested up to: 5.2
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,12 +74,16 @@ In other words, this happens when the cart has only virtual products.
 
 == Changelog ==
 
+= 1.1.0 - 2019/09/20 =
+
+- Plugin name changed from "WooCommerce Digital Goods Checkout" to "Digital Goods Checkout on WooCommerce".
+
 = 1.0.0 - 2015/02/10 =
 
-* Initial release.
+- Initial release.
 
 == Upgrade Notice ==
 
-= 1.0.0 =
+= 1.1.0 =
 
-* Initial release.
+- Plugin name changed from "WooCommerce Digital Goods Checkout" to "Digital Goods Checkout on WooCommerce".
